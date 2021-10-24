@@ -20,5 +20,4 @@ public class Bingo {
             if (y>100){System.out.println("До побачення!");break;}
             if (x < y) {System.out.println("Введіть інше ціле число від 0 до 100 менше " + y);}
             if (x > y) {System.out.println("Введіть інше ціле число від 0 до 100 більше " + y);}
-            if (x==y) {System.out.println("Ви вгадали з " + counter + "спроби");break;}
-            }}}
+            if (x==y) {System.out.println("Ви вгадали з " + counter + "спроби");break;}}}}
