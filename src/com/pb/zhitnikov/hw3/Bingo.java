@@ -1,7 +1,6 @@
 package com.pb.zhitnikov.hw3;
 import java.util.Scanner;
 import java.util.Random;
-import static java.lang.System.in;
 public class Bingo {
     public static void main(String[] args) {
         Random random = new Random();
