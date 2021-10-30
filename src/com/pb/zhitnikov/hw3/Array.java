@@ -6,7 +6,7 @@ public class Array {
         int[] array = new int [10];
         Scanner in = new Scanner(System.in);
         int sum = 0;
-        int count =0;
+        int count = 0;
         System.out.println("Введіть елементи масиву. Масив має 10 елементів");
         for (int i = 0; i< array.length; i++){array [i] = in.nextInt();}
         System.out.print("Ваш масив: ");
