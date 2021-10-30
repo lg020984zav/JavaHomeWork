@@ -1,8 +1,6 @@
 package com.pb.zhitnikov.hw4;
-
 import java.util.Scanner;
 import java.util.StringTokenizer;
-
 public class CapitalLetter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
