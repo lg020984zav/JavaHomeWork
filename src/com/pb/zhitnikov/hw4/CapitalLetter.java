@@ -2,6 +2,7 @@ package com.pb.zhitnikov.hw4;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 public class CapitalLetter {
+    static void endprogram() {System.out.println("Програма завершена");}
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введіть фразу, а я кожне слово напишу з великої букви. Спробуємо?");
@@ -16,5 +17,6 @@ public class CapitalLetter {
             symbol = Character.toUpperCase(words.charAt(0));
             end += symbol + words.substring(1)+ " ";}
         System.out.println(end);
+        endprogram();
     }
 }
