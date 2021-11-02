@@ -1,9 +1,9 @@
 package com.pb.zhitnikov.hw4;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Anagram {
+    static void endprogram() {System.out.println("Програма завершена");}
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введіть дві фрази, а я перевірю чи є вони анаграмою. Спробуємо?");
@@ -34,10 +34,13 @@ public class Anagram {
                     change2 = secondArray[i];
                     secondArray[i] = secondArray[i+1];
                     secondArray[i+1] = (char) change2;}}}
-        System.out.println(Arrays.toString(firstArray));
+        System.out.println(Arrays.toString(secondArray));
         if(Arrays.equals(firstArray, secondArray))
             System.out.println("Це анаграма");
         else
             System.out.println("Це не анаграма");
+        endprogram();
     }
+
+
 }
