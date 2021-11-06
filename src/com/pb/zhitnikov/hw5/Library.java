@@ -1,6 +1,6 @@
 package com.pb.zhitnikov.hw5;
 
-import static com.pb.zhitnikov.hw5.Book.getBookCount;
+import static com.pb.zhitnikov.hw5.Reader.getBookCount;
 
 public class Library {
     public static void main(String[] args) {
@@ -41,7 +41,11 @@ public class Library {
         System.out.println(reader1.getreaderInfo());
         System.out.println(reader2.getreaderInfo());
         System.out.println(reader3.getreaderInfo());
-reader1.takeBook
-        System.out.println("Петров В.В. взяв "+ Book.getBookCount()+" книги");
+        System.out.println(reader1.getName() + reader1.takeBook(3));
+        System.out.println(reader1.getName() + reader1.takeBook(book1, book2, book3));
+        System.out.println(reader1.getName() + reader1.takeBook(book1,book2,book3,reader1));
+        System.out.println(reader1.getName() + reader1.returnBook(3));
+        System.out.println(reader1.getName() + reader1.returnBook(book1, book2, book3));
+        System.out.println(reader1.getName() + reader1.returnBook(book1,book2,book3,reader1));
     }
 }
